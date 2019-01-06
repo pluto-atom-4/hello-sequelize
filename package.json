@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "sequelize:create-migration": "sequelize migration:create",
+    "sequelize:migrate": "sequelize db:migrate",
     "start": "node ./bin/www"
   },
   "dependencies": {
