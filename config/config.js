@@ -6,7 +6,8 @@ module.exports = {
     password: 'ThePassword',
     database: 'hello_sequelize',
     host: 'nuc-coreos',
-    dialect: 'mysql'
+    dialect: 'mysql',
+    "seederStorage": "sequelize"
   },
   test: {
     username: process.env.CI_DB_USERNAME,

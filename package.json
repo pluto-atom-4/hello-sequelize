@@ -5,6 +5,7 @@
   "scripts": {
     "sequelize:create-migration": "sequelize migration:create",
     "sequelize:migrate": "sequelize db:migrate",
+    "sequelize:db-seed": "sequelize db:seed:all",
     "start": "node ./bin/www"
   },
   "dependencies": {
